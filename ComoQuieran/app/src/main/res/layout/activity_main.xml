@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:weightSum="1">
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,5 +24,54 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:hint="@string/edit_mensaje"/>
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FixterGeek"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:typeface="serif"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/myEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="Enter a number"
+        android:singleLine="true"
+        android:inputType="textPassword" />
+    <ImageView
+        android:id="@+id/myimageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:paddingTop="20dp"
+        android:src="@drawable/vectorbr"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here !"/>
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/vectorbr"/>
 
 </LinearLayout>

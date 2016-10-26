@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vectorbr"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Usuario"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:hint="Correo electronico"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Contraseña"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:hint="Escribe tu contraseña"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/iniciar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Iniciar sesión"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:layout_margin="30dp"
+        android:textColor="@android:color/white"
+        />
+</LinearLayout>
