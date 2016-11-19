@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509889163863",
+    "firebase_url": "https://android-f582a.firebaseio.com",
+    "project_id": "android-f582a",
+    "storage_bucket": "android-f582a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509889163863:android:6570615a6f8ed252",
+        "android_client_info": {
+          "package_name": "actosoft.org.touchdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509889163863-hbkej637e9c36lftkfhqlagej7t0474l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "actosoft.org.touchdetector",
+            "certificate_hash": "EB21EB12557AECFAC7DC477897437B5F6A28C26E"
+          }
+        },
+        {
+          "client_id": "509889163863-inc3bppllgh1q787d3m8bfoaicdtafq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfkaryC988fuOxye1lORq5k2fukPeDHhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509889163863-inc3bppllgh1q787d3m8bfoaicdtafq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
