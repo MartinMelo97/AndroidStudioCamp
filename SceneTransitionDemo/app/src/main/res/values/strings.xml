@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SceneTransitionDemo</string>
+    <string name="uno">One</string>
+    <string name="dos">Two</string>
+    <string name="tres">Three</string>
+</resources>
